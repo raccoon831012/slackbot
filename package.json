@@ -1,0 +1,22 @@
+{
+  "name": "slack-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rtmReceive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raccoon831012/slackbot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raccoon831012/slackbot/issues"
+  },
+  "homepage": "https://github.com/raccoon831012/slackbot#readme",
+  "dependencies": {
+    "@slack/client": "^4.3.1"
+  }
+}
