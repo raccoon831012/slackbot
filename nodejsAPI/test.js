@@ -4,7 +4,7 @@ const { RTMClient } = require('@slack/client');
 const SLACK_BOT_TOKEN = 'xoxb-363129229175-393081732999-E7rOhNWomdPq1CfXuoUG2D0o'
 
 // 104 hackathon chatbot 的 user id
-HACKATHON_BOT_USER_ID = "BAMBCD3FA"
+HACKATHON_BOT_USER_ID = "BBJT1T5B8"
 
 // 積分賽-是非題-頻道
 POINT_GAME_TF_CHANNEL_ID = "CAZ2MEA9G"    // point-game-1
@@ -39,8 +39,6 @@ function handle_message(message, channel) {
     return false;
   }
 
-  console.log('hello')
-
   let questionId, questionType, questionFrom, questionScore, answerLength, question;
 
   messageSplit = message.split('\n')
@@ -62,9 +60,9 @@ function handle_message(message, channel) {
   // 取得題目內容
   if (message.includes('Question:'))
     question = message.split("Question:")[1].trim()
-  // console.log('hello')
-  // console.log('questionType============', questionType)
-  console.log(question)
+
+  console.log(questionType)
+  // console.log(question)
   // 這裡是回答
   
 }
