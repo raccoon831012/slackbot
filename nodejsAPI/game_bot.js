@@ -1,7 +1,8 @@
 const { RTMClient, WebClient } = require('@slack/client');
 
 // 先在環境變數設定 Slack bot token
-const SLACK_BOT_TOKEN = 'xoxb-363129229175-393081732999-E7rOhNWomdPq1CfXuoUG2D0o'
+// SLACK_BOT_TOKEN = process.env.SLACK_BOT_TOKEN
+SLACK_BOT_TOKEN = 'xoxb-363129229175-393081732999-E7rOhNWomdPq1CfXuoUG2D0o'
 
 // 104 hackathon chatbot 的 user id
 HACKATHON_BOT_USER_ID = 'UANUQ2XCN'
