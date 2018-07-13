@@ -133,7 +133,6 @@ function main() {
       handle_message(message, channel)
     }
   })
-
 }
 
 main();
